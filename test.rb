@@ -15,7 +15,7 @@ class GoogleSearch < Test::Unit::TestCase
         @browser.goto "google.com" 
         @browser.text_field(:name => "q").set "watir" 
         @browser.div(:id => "resultStats").wait_until_present
-        @browser.screenshots.save ("screenshot/GoogleSearch_chrome52.png")
+        @browser.screenshot.save ("screenshots/GoogleSearch_chrome52.png")
         @browser.button.click 
         @browser.title == "watir - Google Search" 
     end 
