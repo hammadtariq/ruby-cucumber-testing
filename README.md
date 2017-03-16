@@ -10,3 +10,6 @@ Browser automation testing using selenium webdriver with cucmber and ruby
 # Note
 You will need a specific browser driver if you don't have it, download one. I am using chrome driver,
 download it's latest version from https://sites.google.com/a/chromium.org/chromedriver/
+
+# Or if you are using Mac:
+brew install chromedriver
