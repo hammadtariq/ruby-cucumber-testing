@@ -1,5 +1,5 @@
 # Ruby Cucumber Testing
-Browser automation testing using selenium webdriver with cucmber and ruby
+Browser automation testing using watir with cucmber
 
 # Instructions
 0) gem install cucumber
